@@ -4,7 +4,7 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "upload to surge",
+			"label": "deploy",
 			"type": "shell",
 			"command": "surge . --domain=glass.surge.sh",
 			"problemMatcher": [],
