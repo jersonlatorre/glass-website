@@ -5,7 +5,7 @@ html, body {
 }
 
 .main {
-	padding: 80px 30px 100px 30px;
+	padding: 100px 30px 100px 30px;
 	margin: auto;
 	max-width: 660px;
 }
@@ -16,7 +16,14 @@ html, body {
 
 .main h1 {
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 42px;
+	display: inline-block;
+	margin: 0;
+}
+
+.main img.icon {
+	display: inline-block;
+	margin-right: 13px;
 }
 
 .main h2 {
@@ -25,9 +32,16 @@ html, body {
 	margin-top: 40px;
 }
 
-.main img {
+.main img.demo {
 	width: 100%;
 	margin: 20px 0 15px 0;
+	border-radius: 8px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
 }
 
 .patreon {
