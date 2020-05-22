@@ -5,10 +5,9 @@ html, body {
 }
 
 .main {
-	padding-top: 100px;
-	padding-bottom: 150px;
-	width: 600px;
+	padding: 80px 30px 100px 30px;
 	margin: auto;
+	max-width: 660px;
 }
 
 .main a, .main ul, .main li, p, h1 {
@@ -27,7 +26,7 @@ html, body {
 }
 
 .main img {
-	width: 600px;
+	width: 100%;
 	margin: 20px 0 15px 0;
 }
 
