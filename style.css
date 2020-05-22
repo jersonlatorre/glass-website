@@ -1,0 +1,45 @@
+html, body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main {
+	padding-top: 100px;
+	padding-bottom: 150px;
+	width: 600px;
+	margin: auto;
+}
+
+.main a, .main ul, .main li, p, h1 {
+	font-size: 18px;
+}
+
+.main h1 {
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.main h2 {
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 40px;
+}
+
+.main img {
+	width: 600px;
+	margin: 20px 0 15px 0;
+}
+
+.patreon {
+	margin-top: 20px;
+}
+
+.main p.description {
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+.patreon-widget {
+	height: 45px;
+}
