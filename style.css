@@ -2,6 +2,7 @@ html, body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: Roboto;
 }
 
 .main {
@@ -11,14 +12,15 @@ html, body {
 }
 
 .main a, .main ul, .main li, p, h1 {
-	font-size: 18px;
+	font-size: 19px;
 }
 
 .main h1 {
 	font-weight: bold;
-	font-size: 42px;
+	font-size: 44px;
 	display: inline-block;
 	margin: 0;
+	font-family: Montserrat;
 }
 
 .main img.icon {
@@ -30,11 +32,19 @@ html, body {
 	font-weight: bold;
 	font-size: 22px;
 	margin-top: 40px;
+	font-family: Montserrat;
+}
+
+.main h2::before {
+	content: '⇢';
+	color: rgb(230, 140, 0);
+	font-size: 18px;
+	margin-right: 10px;
 }
 
 .main img.demo {
 	width: 100%;
-	margin: 20px 0 15px 0;
+	margin: 15px 0 10px 0;
 	border-radius: 8px;
 }
 
