@@ -37,8 +37,8 @@ html, body {
 
 .main h2::before {
 	content: '⇢';
-	color: rgb(230, 140, 0);
-	font-size: 18px;
+	color: rgb(255, 149, 0);
+	font-size: 20px;
 	margin-right: 10px;
 }
 
